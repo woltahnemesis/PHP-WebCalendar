@@ -9,6 +9,11 @@
   <body>
     <?php
 
+    // Sets the default time zone to Canada/Eastern
+    date_default_timezone_set('Canada/Eastern');
+
+    // echo date_default_timezone_get();
+
     $days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     $months = [
       "January" => 31,
